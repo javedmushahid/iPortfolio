@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+Link to iProfile: [https://javedmushahid.github.io/iPortfolio/]
 In the project directory, you can run:
 
 ### `npm start`
