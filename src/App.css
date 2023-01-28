@@ -127,7 +127,7 @@ body {
     min-height: 500px;
     margin: 80px auto;
     padding: 40px 30px 30px 30px;
-    background-color: #ecf0f3;
+    background-color: #aea0a0;
     border-radius: 15px;
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
@@ -153,7 +153,7 @@ body {
     font-size: 1.4rem;
     letter-spacing: 1.3px;
     padding-left: 10px;
-    color: #555;
+    color: rgb(255, 255, 255);
 }
 
 .wrapper .form-field input {
@@ -163,27 +163,30 @@ body {
     outline: none;
     background: none;
     font-size: 1.2rem;
-    color: #666;
+    color: whitesmoke;
     padding: 10px 15px 10px 10px;
     /* border: 1px solid red; */
 }
-
+.namer{
+  color: white;
+  /* background-color: white; */
+}
 .wrapper .form-field {
     padding-left: 10px;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    box-shadow: inset 8px 8px 8px #ffffff, inset -8px -8px 8px rgb(101, 79, 79);
 }
 
 .wrapper .form-field .fas {
-    color: #555;
+    color: rgb(255, 255, 255);
 }
 
 .wrapper .btn {
     box-shadow: none;
     width: 100%;
     height: 40px;
-    background-color: #03A9F4;
+    background-color: #3f474a;
     color: #fff;
     border-radius: 25px;
     box-shadow: 3px 3px 3px #b1b1b1,
@@ -192,17 +195,24 @@ body {
 }
 
 .wrapper .btn:hover {
-    background-color: #039BE5;
+    background-color: #060606;
+    color: whitesmoke;
 }
 
 .wrapper a {
     text-decoration: none;
-    font-size: 0.8rem;
-    color: #03A9F4;
+    font-size: 1.1rem;
+    color: #000000;
+}
+.new{
+  font-size: 1.1rem;
+  color: #471d64;
+  /* font-weight: lighter; */
 }
 
 .wrapper a:hover {
-    color: #039BE5;
+    color: #052634;
+   
 }
 
 @media(max-width: 380px) {
@@ -347,10 +357,16 @@ body{
 }
 .progress-sm {
   height: 5px;
+ 
+}
+.progress-bar{
+  background-color: red;
+  background-color: red;
 }
 
 .m-0 {
   margin: 0!important;
+  
 }
 .table .thead-light th {
   color: #6c757d;
@@ -574,5 +590,9 @@ body{
   background-color: dodgerblue;
   padding: 20px 20px;
   border-radius:10px;
+}
+
+.gmailhover{
+ font-size: 14px;
 }
 

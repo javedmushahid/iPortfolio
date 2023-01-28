@@ -21,29 +21,42 @@ const Home = ({text}) => {
   
        typewriter
         
-       .typeString("Welcome to ")
+       .typeString("Welcome to iPortfolio ")
          
        .pauseFor(1000)
        .deleteAll()
-       .typeString("Mushahid Javed")
-       .pauseFor(1000)
-       .deleteAll()
+       
        .typeString("I'm a ")
        .pauseFor(1000)
        .deleteAll()
-       .typeString("Frontend ")
+       .typeString("Front-end ")
        .pauseFor(1000)
        .deleteAll()
-       .typeString("Backend")
+       .typeString("Back-end")
        .pauseFor(1000)
        .deleteAll()
        .typeString("Full Stack Developer")
        .pauseFor(1000)
        .deleteAll()
-       .typeString("Thank you, For visiting to our page. ")
-       .start();
+       .typeString("Using ReactJs")
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("NodeJs")
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("ExpressJs")
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("MongoDB")
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("Thank you,for visiting iPortolio.")   
+       .start()
+      
        }}
+      
        />
+      
     </div>
 
     

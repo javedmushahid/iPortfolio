@@ -43,15 +43,15 @@ else{
         </div>
         <form method='POST' className="p-3 mt-3">
             <div className="form-field d-flex align-items-center">
-                <span className="far fa-user"></span>
-                <input type="text" onChange={(e)=>setEmail(e.target.value)} name="userName" id="userName" placeholder="Username"/>
+                <span className="far fa-user namer"></span>
+                <input type="text"className='namer' onChange={(e)=>setEmail(e.target.value)} name="userName" id="userName" placeholder="Username"/>
             </div>
             <div className="form-field d-flex align-items-center">
                 <span className="fas fa-key"></span>
                 <input type="password" onChange={(e)=>setPassWord(e.target.value)} name="password" id="pwd" placeholder="Password"/>
             </div>
 <div className="form-group">
-<input type='submit' name="signin" id="signin" value="Signin" className="btn mt-3" onClick={loginUser}/>
+<input type='submit' name="signin" id="signin" value="Sign in" className="btn mt-3" onClick={loginUser}/>
 
   </div> 
   
@@ -59,7 +59,7 @@ else{
          </form>
         <div className="form-group">
             
-          <div className="text-center">New User? <Link to="/signup">Create New Account</Link></div>
+          <div className="text-center new">New User? <Link to="/signup">Create New Account</Link></div>
           </div>
     </div>
   </>
